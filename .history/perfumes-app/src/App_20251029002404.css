@@ -1,0 +1,476 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #FCF2E6;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+.veloura-logo {
+  font-family: "Allura", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 27px;
+  color: #64462F !important;
+}
+
+.navbar {
+  background: transparent !important;
+}
+
+button.navbar-toggler {
+  border: none !important;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='24' viewBox='0 -960 960 960' width='24' fill='%23D4B191'%3E%3Cpath d='M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z'/%3E%3C/svg%3E");
+}
+
+
+
+.nav-link {
+  color: #64462F !important;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.hero-section {
+  background-color: #f5efe7;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: "Poppins", sans-serif;
+}
+
+/* =============== HERO LAYOUT =============== */
+.hero-layout {
+ display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    max-width: 1400px;
+    height: 100vh;
+    margin: 60px 0;
+    
+}
+
+/* ---------- Left Section ---------- */
+.hero-left {
+    flex: 1 1;
+    position: relative;
+    margin: 133px 0px 0 92px;
+}
+
+.main-image {
+  width: 100%;
+  height: 564px;
+  border-radius: 12px;
+  overflow: hidden; /* ✅ ensures image stays inside box */
+  position: relative;
+  background-color: #93c5fd;
+}
+
+/* Make image fill box properly */
+.main-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* ✅ maintains aspect ratio without stretching */
+  object-position: center;
+  display: block;
+}
+
+
+.side-handle {
+  position: absolute;
+  left: -50px;
+  bottom: 50%;
+  transform: rotate(-90deg);
+  font-size: 14px;
+  color: #555;
+  letter-spacing: 2px;
+}
+
+/* ---------- Right Section ---------- */
+.hero-right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+/* Text Area */
+.hero-text h2 {
+  font-size: 1.6rem;
+  color: #6c6c6c;
+  margin-bottom: 5px;
+  letter-spacing: 2px;
+}
+
+.hero-text h1 {
+  font-family: "Lilita One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 4.2rem;
+  color: #64462F;
+  line-height: 1.1;
+}
+
+.hero-text p {
+  font-size: 1.1rem;
+  color: #555;
+  margin-top: 15px;
+  line-height: 1.6;
+}
+
+.shop-btn {
+  background-color: #64462F;
+  color: white;
+  border: none;
+  padding: 12px 36px;
+  border-radius: 40px;
+  font-size: 1.1rem;
+  margin-top: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.shop-btn:hover {
+  background-color: #a3846d;
+}
+
+/* Small Image Grid */
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.small-box {
+  height: 200px;
+  background-color: #93c5fd;
+  border-radius: 12px;
+}
+
+/* =============== RESPONSIVE DESIGN =============== */
+@media (max-width: 992px) {
+  .hero-layout {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .side-handle {
+    display: none;
+  }
+
+  .hero-text h1 {
+    font-size: 3rem;
+  }
+
+  .main-image {
+    height: 400px;
+  }
+}
+
+
+.products-section h2 {
+  font-family: "Libertinus Serif Display", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 52px;
+  color: #4B1D3F;
+}
+
+.product-card {
+  transition: all 0.3s ease-in-out;
+  border-radius: 10px;
+  background: transparent;
+}
+
+.card-img {
+  border-radius: 10px;
+  /* background: #FCF2E6; */
+  background: #4B1D3F;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+}
+
+.card-text,
+.card-title {
+  font-size: 23px;
+  color: #4B1D3F;
+}
+
+/* about us */
+
+.aboutus {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  align-items: center;
+  padding: 2rem;
+  background: #FCF2E6;
+}
+
+.right-section video {
+  width: 70%;
+  max-height: 80vh;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* product details */
+
+
+.modal-header p {
+  font-size: 14px;
+  color: #451b277a;
+}
+
+.product-img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.product-title {
+  font-family: "Libertinus Serif Display", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 36px;
+  color: #4B1D3F;
+}
+
+
+
+.modal-content {
+  background: #FCF2E6 !important;
+  margin: auto !important;
+  height: 98vh;
+  overflow: hidden;
+}
+
+.breadcrumb-item a {
+  text-decoration: none !important;
+  color: black !important;
+}
+
+.modal-dialog {
+  max-width: 900px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: calc(100vh - 2rem); /* keeps it centered */
+}
+
+/* Optional - pretty scrollbar inside modal */
+.modal-content::-webkit-scrollbar {
+  width: 8px;
+}
+.modal-content::-webkit-scrollbar-thumb {
+  background: #d4b191;
+  border-radius: 10px;
+}
+.modal-content::-webkit-scrollbar-thumb:hover {
+  background: #b8937a;
+}
+
+.modal-body {
+  padding: 2rem !important;
+}
+
+.gender,
+.concentration {
+  background-color: #D4B191;
+  border-radius: 21%;
+  padding: 6px 11px;
+  margin-bottom: 5px;
+}
+
+.add-cart-btn {
+  margin-top: 1rem;
+  background-color: #D4B191;
+  padding: 10px 25px;
+  color: #451B27;
+  font-weight: 600;
+}
+
+.product-detail {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-size: 13px;
+  color: #8b745e;
+}
+
+.btn-close:focus {
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+/* contact us */
+
+.contact-us {
+  background-image: url("Assets/contactus2-bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.contact-section h2 {
+  font-family: "Libertinus Serif Display", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 52px;
+  color: #b8937a;
+  text-align: center;
+}
+
+.contact-section p {
+  font-size: 18px;
+  color: #FCF2E6;
+  /* accent purple */
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.contact-form {
+  max-width: 600px;
+  margin: 0 auto;
+  display: grid;
+  gap: 1.5rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 1rem 1.2rem;
+  border: 2px solid #D4B191;
+  /* brand pink/gold */
+  border-radius: 10px;
+  font-size: 16px;
+  width: 100%;
+  outline: none;
+  transition: border 0.3s, box-shadow 0.3s;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #5E1E27;
+  /* pink highlight */
+  box-shadow: 0 0 10px rgba(252, 65, 90, 0.2);
+}
+
+.contact-form button {
+  background-color: #D4B191;
+  color: #451B27;
+  padding: 1rem 2.5rem;
+  font-size: 18px;
+  font-weight: 600;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.3s, background 0.3s;
+}
+
+.contact-form button:hover {
+  background-color: #5E1E27;
+  color: #fff;
+  transform: scale(1.05);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .contact-form {
+    gap: 1rem;
+  }
+
+  .contact-section h2 {
+    font-size: 36px;
+  }
+
+  .contact-section p {
+    font-size: 16px;
+  }
+}
+
+/* Copyright */
+
+footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  background-color: #0b0708ac;
+}
+
+/* login modal */
+
+.auth-modal-content {
+  background-color: #fdf7f2 !important;
+  border-radius: 16px;
+  border: none;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  height: 90vh !important;
+  width: 70%;
+}
+
+.auth-title {
+  color: #4c0d23;
+  font-weight: 700;
+}
+
+.auth-login-btn {
+  background-color: #4c0d23;
+  color: #fff;
+  border-radius: 12px;
+  transition: background-color 0.3s ease;
+}
+
+.auth-login-btn:hover {
+  background-color: #300818;
+}
+
+.auth-signup-btn {
+  border: 2px solid #b8860b;
+  color: #b8860b;
+  border-radius: 12px;
+  background-color: transparent;
+  transition: all 0.3s ease;
+}
+
+.auth-signup-btn:hover {
+  background-color: #b8860b;
+  color: #fff;
+}
+
+.auth-forgot-link {
+  color: #4c0d23;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.auth-forgot-link:hover {
+  text-decoration: underline;
+}
+
+.authfade-enter {
+  opacity: 0;
+  transform: translateY(10px);
+}
+.authfade-enter-active {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 300ms ease, transform 300ms ease;
+}
+.authfade-exit {
+  opacity: 1;
+  transform: translateY(0);
+}
+.authfade-exit-active {
+  opacity: 0;
+  transform: translateY(-10px);
+  transition: opacity 300ms ease, transform 300ms ease;
+}
+

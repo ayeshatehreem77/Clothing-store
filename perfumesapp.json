@@ -1,0 +1,441 @@
+{
+    "brand": [
+  { "name": "Dior", "slug": "dior" },
+  { "name": "Chanel", "slug": "chanel" },
+  { "name": "Gucci", "slug": "gucci" },
+  { "name": "Versace", "slug": "versace" },
+  { "name": "Armani", "slug": "armani" },
+  { "name": "Yves Saint Laurent", "slug": "yves-saint-laurent" },
+  { "name": "Tom Ford", "slug": "tom-ford" },
+  { "name": "Dolce & Gabbana", "slug": "dolce-gabbana" },
+  { "name": "Burberry", "slug": "burberry" },
+  { "name": "Givenchy", "slug": "givenchy" },
+  { "name": "Hermès", "slug": "hermes" },
+  { "name": "Prada", "slug": "prada" },
+  { "name": "Calvin Klein", "slug": "calvin-klein" },
+  { "name": "Montblanc", "slug": "montblanc" },
+  { "name": "Hugo Boss", "slug": "hugo-boss" },
+  { "name": "Jean Paul Gaultier", "slug": "jean-paul-gaultier" },
+  { "name": "Creed", "slug": "creed" },
+  { "name": "Maison Margiela", "slug": "maison-margiela" },
+  { "name": "Paco Rabanne", "slug": "paco-rabanne" },
+  { "name": "Mugler", "slug": "mugler" }
+],
+
+"perfumes":[
+  {
+    "name": "Sauvage",
+    "slug": "sauvage",
+    "brand": "<DIOR_BRAND_ID>",
+    "gender": "men",
+    "concentration": "EDT",
+    "description": "Fresh and powerful fragrance with bergamot and ambroxan."
+  },
+  {
+    "name": "J'adore",
+    "slug": "jadore",
+    "brand": "<DIOR_BRAND_ID>",
+    "gender": "women",
+    "concentration": "EDP",
+    "description": "Floral bouquet with jasmine, rose and ylang-ylang."
+  },
+  {
+    "name": "Fahrenheit",
+    "slug": "fahrenheit",
+    "brand": "<DIOR_BRAND_ID>",
+    "gender": "men",
+    "concentration": "EDT",
+    "description": "Woody floral musk with leather undertones."
+  },
+  {
+    "name": "Dior Homme",
+    "slug": "dior-homme",
+    "brand": "<DIOR_BRAND_ID>",
+    "gender": "men",
+    "concentration": "EDT",
+    "description": "Elegant woody iris scent with amber."
+  },
+  {
+    "name": "Miss Dior",
+    "slug": "miss-dior",
+    "brand": "<DIOR_BRAND_ID>",
+    "gender": "women",
+    "concentration": "EDP",
+    "description": "Romantic floral with rose and patchouli."
+  },
+
+  {
+    "name": "Bleu de Chanel",
+    "slug": "bleu-de-chanel",
+    "brand": "<CHANEL_BRAND_ID>",
+    "gender": "men",
+    "concentration": "EDP",
+    "description": "Woody aromatic with citrus and incense."
+  },
+  {
+    "name": "Coco Mademoiselle",
+    "slug": "coco-mademoiselle",
+    "brand": "<CHANEL_BRAND_ID>",
+    "gender": "women",
+    "concentration": "EDP",
+    "description": "Fresh oriental with orange, jasmine and rose."
+  },
+  {
+    "name": "Chanel No.5",
+    "slug": "chanel-no-5",
+    "brand": "<CHANEL_BRAND_ID>",
+    "gender": "women",
+    "concentration": "Parfum",
+    "description": "Iconic floral aldehyde with jasmine and sandalwood."
+  },
+  {
+    "name": "Chance Eau Tendre",
+    "slug": "chance-eau-tendre",
+    "brand": "<CHANEL_BRAND_ID>",
+    "gender": "women",
+    "concentration": "EDT",
+    "description": "Fruity floral with grapefruit and jasmine."
+  },
+  {
+    "name": "Allure Homme Sport",
+    "slug": "allure-homme-sport",
+    "brand": "<CHANEL_BRAND_ID>",
+    "gender": "men",
+    "concentration": "EDT",
+    "description": "Fresh citrusy sporty fragrance with tonka bean."
+  },
+
+  {
+    "name": "Gucci Guilty",
+    "slug": "gucci-guilty",
+    "brand": "<GUCCI_BRAND_ID>",
+    "gender": "men",
+    "concentration": "EDT",
+    "description": "Lavender, lemon and cedarwood blend."
+  },
+  {
+    "name": "Gucci Bloom",
+    "slug": "gucci-bloom",
+    "brand": "<GUCCI_BRAND_ID>",
+    "gender": "women",
+    "concentration": "EDP",
+    "description": "White floral with tuberose and jasmine."
+  },
+  {
+    "name": "Flora by Gucci",
+    "slug": "flora-by-gucci",
+    "brand": "<GUCCI_BRAND_ID>",
+    "gender": "women",
+    "concentration": "EDT",
+    "description": "Light floral with citrus and peony."
+  },
+  {
+    "name": "Gucci Rush",
+    "slug": "gucci-rush",
+    "brand": "<GUCCI_BRAND_ID>",
+    "gender": "women",
+    "concentration": "EDT",
+    "description": "Spicy oriental with peach and coriander."
+  },
+  {
+    "name": "Gucci Intense Oud",
+    "slug": "gucci-intense-oud",
+    "brand": "<GUCCI_BRAND_ID>",
+    "gender": "unisex",
+    "concentration": "EDP",
+    "description": "Rich oud with leather and amber."
+  },
+
+  {
+    "name": "Burberry Her",
+    "slug": "burberry-her",
+    "brand": "<BURBERRY_BRAND_ID>",
+    "gender": "women",
+    "concentration": "EDP",
+    "description": "Fruity floral with strawberry and jasmine."
+  },
+  {
+    "name": "Burberry Brit",
+    "slug": "burberry-brit",
+    "brand": "<BURBERRY_BRAND_ID>",
+    "gender": "women",
+    "concentration": "EDT",
+    "description": "Vanilla, almond and tonka bean."
+  },
+  {
+    "name": "Burberry London",
+    "slug": "burberry-london",
+    "brand": "<BURBERRY_BRAND_ID>",
+    "gender": "men",
+    "concentration": "EDT",
+    "description": "Woody spicy with lavender and cinnamon."
+  },
+  {
+    "name": "Burberry Touch",
+    "slug": "burberry-touch",
+    "brand": "<BURBERRY_BRAND_ID>",
+    "gender": "men",
+    "concentration": "EDT",
+    "description": "Fresh spicy with artemisia and musk."
+  },
+  {
+    "name": "Mr Burberry",
+    "slug": "mr-burberry",
+    "brand": "<BURBERRY_BRAND_ID>",
+    "gender": "men",
+    "concentration": "EDT",
+    "description": "Citrus, vetiver and guaiac wood."
+  },
+
+  {
+    "name": "Eros",
+    "slug": "eros",
+    "brand": "<VERSACE_BRAND_ID>",
+    "gender": "men",
+    "concentration": "EDT",
+    "description": "Fresh mint, green apple and tonka bean."
+  },
+  {
+    "name": "Dylan Blue",
+    "slug": "dylan-blue",
+    "brand": "<VERSACE_BRAND_ID>",
+    "gender": "men",
+    "concentration": "EDT",
+    "description": "Aromatic fougere with citrus and incense."
+  },
+  {
+    "name": "Versace Pour Homme",
+    "slug": "versace-pour-homme",
+    "brand": "<VERSACE_BRAND_ID>",
+    "gender": "men",
+    "concentration": "EDT",
+    "description": "Citrus, neroli and cedarwood."
+  },
+  {
+    "name": "Crystal Noir",
+    "slug": "crystal-noir",
+    "brand": "<VERSACE_BRAND_ID>",
+    "gender": "women",
+    "concentration": "EDP",
+    "description": "Spicy floral with gardenia and amber."
+  },
+  {
+    "name": "Bright Crystal",
+    "slug": "bright-crystal",
+    "brand": "<VERSACE_BRAND_ID>",
+    "gender": "women",
+    "concentration": "EDT",
+    "description": "Pomegranate, peony and musk."
+  },
+
+  {
+    "name": "Acqua di Giò",
+    "slug": "acqua-di-gio",
+    "brand": "<ARMANI_BRAND_ID>",
+    "gender": "men",
+    "concentration": "EDT",
+    "description": "Marine fresh with citrus and musk."
+  },
+  {
+    "name": "Acqua di Giò Profumo",
+    "slug": "acqua-di-gio-profumo",
+    "brand": "<ARMANI_BRAND_ID>",
+    "gender": "men",
+    "concentration": "EDP",
+    "description": "Aquatic aromatic with incense and patchouli."
+  },
+  {
+    "name": "Code",
+    "slug": "armani-code",
+    "brand": "<ARMANI_BRAND_ID>",
+    "gender": "men",
+    "concentration": "EDT",
+    "description": "Spicy oriental with leather and tobacco."
+  },
+  {
+    "name": "Si",
+    "slug": "si",
+    "brand": "<ARMANI_BRAND_ID>",
+    "gender": "women",
+    "concentration": "EDP",
+    "description": "Fruity floral chypre with blackcurrant and vanilla."
+  },
+  {
+    "name": "My Way",
+    "slug": "my-way",
+    "brand": "<ARMANI_BRAND_ID>",
+    "gender": "women",
+    "concentration": "EDP",
+    "description": "Floral with orange blossom and tuberose."
+  },
+
+  {
+    "name": "Black Opium",
+    "slug": "black-opium",
+    "brand": "<YSL_BRAND_ID>",
+    "gender": "women",
+    "concentration": "EDP",
+    "description": "Coffee, vanilla and white flowers."
+  },
+  {
+    "name": "Libre",
+    "slug": "libre",
+    "brand": "<YSL_BRAND_ID>",
+    "gender": "women",
+    "concentration": "EDP",
+    "description": "Lavender, orange blossom and musk."
+  },
+  {
+    "name": "La Nuit de l'Homme",
+    "slug": "la-nuit-de-lhomme",
+    "brand": "<YSL_BRAND_ID>",
+    "gender": "men",
+    "concentration": "EDT",
+    "description": "Cardamom, cedar and coumarin."
+  },
+  {
+    "name": "L'Homme",
+    "slug": "lhomme",
+    "brand": "<YSL_BRAND_ID>",
+    "gender": "men",
+    "concentration": "EDT",
+    "description": "Ginger, bergamot and tonka bean."
+  },
+  {
+    "name": "Mon Paris",
+    "slug": "mon-paris",
+    "brand": "<YSL_BRAND_ID>",
+    "gender": "women",
+    "concentration": "EDP",
+    "description": "Strawberry, pear and white musk."
+  },
+
+  {
+    "name": "Oud Wood",
+    "slug": "oud-wood",
+    "brand": "<TOMFORD_BRAND_ID>",
+    "gender": "unisex",
+    "concentration": "EDP",
+    "description": "Oud, sandalwood and vanilla."
+  },
+  {
+    "name": "Tobacco Vanille",
+    "slug": "tobacco-vanille",
+    "brand": "<TOMFORD_BRAND_ID>",
+    "gender": "unisex",
+    "concentration": "EDP",
+    "description": "Sweet tobacco with vanilla and cocoa."
+  },
+  {
+    "name": "Noir Extreme",
+    "slug": "noir-extreme",
+    "brand": "<TOMFORD_BRAND_ID>",
+    "gender": "men",
+    "concentration": "EDP",
+    "description": "Spicy oriental with cardamom and amber."
+  },
+  {
+    "name": "Black Orchid",
+    "slug": "black-orchid",
+    "brand": "<TOMFORD_BRAND_ID>",
+    "gender": "unisex",
+    "concentration": "EDP",
+    "description": "Dark floral with truffle and patchouli."
+  },
+  {
+    "name": "Tuscan Leather",
+    "slug": "tuscan-leather",
+    "brand": "<TOMFORD_BRAND_ID>",
+    "gender": "unisex",
+    "concentration": "EDP",
+    "description": "Leather, raspberry and suede."
+  },
+
+  {
+    "name": "Light Blue",
+    "slug": "light-blue",
+    "brand": "<DNG_BRAND_ID>",
+    "gender": "women",
+    "concentration": "EDT",
+    "description": "Citrus floral with cedarwood and apple."
+  },
+  {
+    "name": "The One",
+    "slug": "the-one",
+    "brand": "<DNG_BRAND_ID>",
+    "gender": "men",
+    "concentration": "EDT",
+    "description": "Spicy oriental with grapefruit and amber."
+  },
+  {
+    "name": "K",
+    "slug": "k",
+    "brand": "<DNG_BRAND_ID>",
+    "gender": "men",
+    "concentration": "EDT",
+    "description": "Citrus, juniper berry and cedarwood."
+  },
+  {
+    "name": "Dolce",
+    "slug": "dolce",
+    "brand": "<DNG_BRAND_ID>",
+    "gender": "women",
+    "concentration": "EDP",
+    "description": "White floral with water lily and narcissus."
+  },
+  {
+    "name": "L’Imperatrice",
+    "slug": "limperatrice",
+    "brand": "<DNG_BRAND_ID>",
+    "gender": "women",
+    "concentration": "EDT",
+    "description": "Exotic fruity floral with kiwi and watermelon."
+  },
+
+  {
+    "name": "Gentleman",
+    "slug": "gentleman",
+    "brand": "<GIVENCHY_BRAND_ID>",
+    "gender": "men",
+    "concentration": "EDT",
+    "description": "Woody aromatic with pear and iris."
+  },
+  {
+    "name": "L'Interdit",
+    "slug": "linterdit",
+    "brand": "<GIVENCHY_BRAND_ID>",
+    "gender": "women",
+    "concentration": "EDP",
+    "description": "White floral with vetiver and patchouli."
+  },
+  {
+    "name": "Ange ou Démon",
+    "slug": "ange-ou-demon",
+    "brand": "<GIVENCHY_BRAND_ID>",
+    "gender": "women",
+    "concentration": "EDP",
+    "description": "Sweet floral with saffron and vanilla."
+  },
+  {
+    "name": "Pi",
+    "slug": "pi",
+    "brand": "<GIVENCHY_BRAND_ID>",
+    "gender": "men",
+    "concentration": "EDT",
+    "description": "Vanilla, almond and tonka bean."
+  },
+  {
+    "name": "Hot Couture",
+    "slug": "hot-couture",
+    "brand": "<GIVENCHY_BRAND_ID>",
+    "gender": "women",
+    "concentration": "EDP",
+    "description": "Fruity floral with raspberry and pepper."
+  }
+],
+
+"variants":{
+    
+}
+
+}

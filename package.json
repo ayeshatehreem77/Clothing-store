@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "express-validator": "^7.2.1"
+  },
+  "devDependencies": {
+    "cross-env": "^10.0.0",
+    "kill-port": "^2.0.1"
+  }
+}
